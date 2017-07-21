@@ -1,0 +1,48 @@
+
+#info {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    z-index: 9999;
+}
+
+body {
+    margin: 0;
+    height: 3000px;
+}
+
+section {
+    height: 3000px;
+    position: fixed;
+}
+
+#slide .bcg {
+
+    height: 3000px;
+    width: 1000px;
+    background-image: url('http://placekitten.com/2576/1932');
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.item {
+
+    position: absolute;
+    opacity: 0;
+}
+
+#txt1 {
+
+    visibility: visible;
+    color: white;
+    z-index: 9999;
+    top: 190px;
+    left: 190px;
+    position: fixed;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.1) ;
+}
